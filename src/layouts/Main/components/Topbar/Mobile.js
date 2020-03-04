@@ -52,24 +52,24 @@ const Topbar = props => {
   return (
 
 
-    <AppBar title="My AppBar" style={{ backgroundColor: '#608D5A' }} 
+    <AppBar title="My AppBar" style={{ backgroundColor: 'green' }} 
    {...rest}
       className={clsx(classes.root, className)}
     >
 
-<Paper title="My Paper" style={{ backgroundColor: '#608D5A' }} 
+<Paper title="My Paper" style={{ backgroundColor: 'green' }} 
 
 component="form" className={classes.root}>
 
-<font color="white">
-<IconButton style={{ Color: '#FFF' }}
+
+<IconButton
             
              
             onClick={onSidebarOpen}
           >
             <MenuIcon />
           </IconButton>
-      <InputBase color="#fff"
+      <InputBase 
         className={classes.input}
         placeholder="Search Google Maps"
         inputProps={{ 'aria-label': 'search pencarian' }}
@@ -81,7 +81,7 @@ component="form" className={classes.root}>
       <IconButton color="primary" className={classes.iconButton} aria-label="directions">
         <DirectionsIcon />
       </IconButton>
-</font>
+
     </Paper>
       
     </AppBar>
