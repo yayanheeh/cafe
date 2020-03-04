@@ -61,13 +61,13 @@ const Topbar = props => {
 
 component="form" className={classes.root}>
 <IconButton
-            color='primary'
+            style={{ color: white[500] }}
              
             onClick={onSidebarOpen}
           >
             <MenuIcon />
           </IconButton>
-      <InputBase
+      <InputBase style={{ color: white[500] }}
         className={classes.input}
         placeholder="Search Google Maps"
         inputProps={{ 'aria-label': 'search pencarian' }}
