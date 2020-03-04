@@ -52,12 +52,14 @@ const Topbar = props => {
   return (
 
 
-    <AppBar title="My AppBar" style={{ backgroundColor: '#fff' }} 
+    <AppBar title="My AppBar" style={{ backgroundColor: '#000000' }} 
    {...rest}
       className={clsx(classes.root, className)}
     >
 
-<Paper component="form" className={classes.root}>
+<Paper title="My Paper" style={{ backgroundColor: '#000000' }} 
+
+component="form" className={classes.root}>
 <IconButton
             color="inherit"
             onClick={onSidebarOpen}
