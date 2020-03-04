@@ -31,7 +31,7 @@ const Dashboard = () => {
         <Grid
           item
           lg={3}
-          sm={3}
+          sm={6}
           xl={3}
           xs={6}
         >
@@ -40,7 +40,7 @@ const Dashboard = () => {
         <Grid
           item
           lg={3}
-          sm={3}
+          sm={6}
           xl={3}
           xs={6}
         >
