@@ -88,6 +88,12 @@ const Topbar = props => {
     </AppBar>
 
 </Hidden>
+<Hidden smUp>
+
+    <AppBar
+      {...rest}
+      className={clsx(classes.root, className)}
+    >
 
 <Paper component="form" className={classes.root}>
       <IconButton
@@ -109,8 +115,9 @@ const Topbar = props => {
         <DirectionsIcon />
       </IconButton>
     </Paper>
+</AppBar>
 
-
+</Hidden>
   );
 };
 
