@@ -27,7 +27,7 @@ const Topbar = props => {
 
   const [notifications] = useState([]);
 
-  return (
+  return (<Hidden SmDown>
     <AppBar
       {...rest}
       className={clsx(classes.root, className)}
@@ -67,6 +67,8 @@ const Topbar = props => {
         </Hidden>
       </Toolbar>
     </AppBar>
+
+</Hidden>
   );
 };
 
