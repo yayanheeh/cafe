@@ -42,10 +42,8 @@ const useStyles = makeStyles(theme => ({
   },
   flexGrow: {
     flexGrow: 1
-  },
-  signOutButton: {
-    marginLeft: theme.spacing(2)
   }
+  
 }));
 
 const Topbar = props => {
