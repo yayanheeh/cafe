@@ -60,6 +60,8 @@ const Topbar = props => {
 <Paper title="My Paper" style={{ backgroundColor: '#608D5A' }} 
 
 component="form" className={classes.root}>
+
+<font color="white">
 <IconButton style={{ Color: '#FFF' }}
             
              
@@ -79,6 +81,7 @@ component="form" className={classes.root}>
       <IconButton color="primary" className={classes.iconButton} aria-label="directions">
         <DirectionsIcon />
       </IconButton>
+</font>
     </Paper>
       
     </AppBar>
