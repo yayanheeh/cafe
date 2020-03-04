@@ -36,13 +36,6 @@ const useStyles = makeStyles(theme => ({
     height: 28,
     margin: 4,
 },
-
-
-    boxShadow: 'none'
-  },
-  flexGrow: {
-    flexGrow: 1
-  }
   
 }));
 
