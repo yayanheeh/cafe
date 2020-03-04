@@ -44,7 +44,7 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1
   },
   signOutButton: {
-    marginLeft: theme.spacing(1)
+    marginLeft: theme.spacing(2)
   }
 }));
 
