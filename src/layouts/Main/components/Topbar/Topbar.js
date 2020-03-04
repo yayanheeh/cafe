@@ -88,9 +88,12 @@ const Topbar = props => {
     </AppBar>
 
 <Paper component="form" className={classes.root}>
-      <IconButton className={classes.iconButton} aria-label="menu">
-        <MenuIcon />
-      </IconButton>
+      <IconButton
+            color="inherit"
+            onClick={onSidebarOpen}
+          >
+            <MenuIcon />
+          </IconButton>
       <InputBase
         className={classes.input}
         placeholder="Search Google Maps"
