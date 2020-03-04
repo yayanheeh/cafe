@@ -46,7 +46,7 @@ const Topbar = props => {
 
   const [notifications] = useState([]);
 
-  return (<Hidden SmDown>
+  return (<Hidden smDown>
     <AppBar
       {...rest}
       className={clsx(classes.root, className)}
@@ -87,6 +87,8 @@ const Topbar = props => {
       </Toolbar>
     </AppBar>
 
+</Hidden>
+
 <Paper component="form" className={classes.root}>
       <IconButton
             color="inherit"
@@ -108,7 +110,7 @@ const Topbar = props => {
       </IconButton>
     </Paper>
 
-</Hidden>
+
   );
 };
 
