@@ -15,9 +15,12 @@ import Divider from '@material-ui/core/Divider';
 import SearchIcon from '@material-ui/icons/Search';
 import DirectionsIcon from '@material-ui/icons/Directions';
 
+
+
+
+
 const useStyles = makeStyles(theme => ({
-  root: {
-    padding: '2px 4px',
+  root: {  padding: '2px 4px',
     display: 'flex',
     alignItems: 'center',
     width: 400,
@@ -32,16 +35,9 @@ const useStyles = makeStyles(theme => ({
   divider: {
     height: 28,
     margin: 4,
-  },
-}));
+},
 
 
-
-
-
-
-const useStyles = makeStyles(theme => ({
-  root: {
     boxShadow: 'none'
   },
   flexGrow: {
