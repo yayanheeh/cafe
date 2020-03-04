@@ -60,7 +60,7 @@ const Topbar = props => {
 <Paper title="My Paper" style={{ backgroundColor: '#608D5A' }} 
 
 component="form" className={classes.root}>
-<IconButton color="#fff"
+<IconButton style={{ Color: '#FFF' }}
             
              
             onClick={onSidebarOpen}
