@@ -33,7 +33,7 @@ const Dashboard = () => {
           lg={3}
           sm={3}
           xl={3}
-          xs={12}
+          xs={6}
         >
           <Budget />
         </Grid>
@@ -42,7 +42,7 @@ const Dashboard = () => {
           lg={3}
           sm={3}
           xl={3}
-          xs={12}
+          xs={6}
         >
           <TotalUsers />
         </Grid>
