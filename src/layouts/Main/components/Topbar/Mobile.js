@@ -61,7 +61,7 @@ const Topbar = props => {
 
 component="form" className={classes.root}>
 <IconButton
-            color="inherit"
+            color="white"
             onClick={onSidebarOpen}
           >
             <MenuIcon />
