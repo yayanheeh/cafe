@@ -4,14 +4,14 @@ import Link from '@material-ui/core/Link';
 
 const tileData = [
   {
-<Link component={RouterLink} to="/icons">
- 
+
     img: 'https://material-ui.com/static/images/grid-list/breakfast.jpg',
-    title: 'Breakfast',
+    title: '<Link component={RouterLink} to="/icons">
+ Breakfast</Link>',
     author: 'jill111',
     cols: 2,
     featured: true,
-</Link>
+
   },
   {
     img: 'https://material-ui.com/static/images/grid-list/burgers.jpg',
