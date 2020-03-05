@@ -11,6 +11,8 @@ import tileData from './tileData';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import { Typography } from '@material-ui/core';
 
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
 
 
 
@@ -91,6 +93,20 @@ const Makanan = () => {
             />
           </GridListTile>
         ))}    
+
+
+<Grid container spacing={1}>
+        <Grid container item xs={12} spacing={3}>
+         
+        </Grid>
+        <Grid container item xs={12} spacing={3}>
+          
+        </Grid>
+        <Grid container item xs={12} spacing={3}>
+          
+        </Grid>
+      </Grid>
+
     </GridList></div>
   );
 };
