@@ -79,8 +79,8 @@ export default function ScrollableTabsButtonAuto() {
      
       <TabPanel value={value} index={0}>
       
-    <Tab label="Item One"/>
-          <Tab label="Item Two"/>
+    <Tab label>Tes</Tab>
+          <Tab label>Tes2</Tab>
          
 
       </TabPanel>
