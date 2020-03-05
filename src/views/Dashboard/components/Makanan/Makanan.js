@@ -79,20 +79,9 @@ export default function ScrollableTabsButtonAuto() {
      
       <TabPanel value={value} index={0}>
       
-    <Grid lg={3}
-          sm={3}
-          xl={3}
-          xs={6}
-        >
-          Tes 1
-        </Grid> 
-  <Grid lg={3}
-          sm={3}
-          xl={3}
-          xs={6}
-        >
-          Tes 2
-        </Grid>
+    <Tab label="Item One"/>
+          <Tab label="Item Two"/>
+         
 
       </TabPanel>
       <TabPanel value={value} index={1}>
