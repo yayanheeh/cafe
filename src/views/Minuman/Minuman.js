@@ -80,6 +80,23 @@ const Minuman = () => {
           </GridListTile>
         ))}
       </GridList>
+<GridList style={{
+        width: '100%',
+        maxHeight: 320,
+        flexWrap: 'nowrap'
+}} cols= cellHeight={'auto'}>
+tes1
+</GridList>
+<GridList style={{
+        width: '100%',
+        maxHeight: 320,
+        flexWrap: 'nowrap'
+}} cols= cellHeight={'auto'}>
+tes2
+</GridList>
+
+
+
     </div>
   );
 };
