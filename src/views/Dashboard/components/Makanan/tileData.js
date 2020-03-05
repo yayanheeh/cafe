@@ -1,6 +1,3 @@
-import { Link as RouterLink } from 'react-router-dom'
-import Link from '@material-ui/core/Link';
-
 
 const tileData = [
   {
@@ -9,7 +6,6 @@ const tileData = [
     title: 'Breakfast',
     author: 'jill111',
     cols: 2,
-    url: 'https://detik.com'
     featured: true,
 
   },
