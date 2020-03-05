@@ -16,7 +16,7 @@ const styles = theme => ({
      marginTop: 30,
      display: 'flex',
      oveflow: "auto",
-     maxWidth: "100%"
+     maxWidth: "2000%"
   },
   card: {
     minWidth: 180,
