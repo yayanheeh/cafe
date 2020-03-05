@@ -30,15 +30,10 @@ export default function ImgMediaCard() {
         <CardContent>
           
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards      </Typography>
+            Roti enak   </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Rp 20000
-        </Button>
-        
-      </CardActions>
+      
     </Card>
   );
 }
