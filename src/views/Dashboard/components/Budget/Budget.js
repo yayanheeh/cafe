@@ -28,21 +28,9 @@ export default function MediaCard() {
           image="https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_1280.jpg "
           title="Contemplative Reptile"
         />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Lizard
-          </Typography>
-          
-        </CardContent>
+        
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
+      
     </Card>
   );
 }
