@@ -31,13 +31,14 @@ export default function MediaCard() {
   return (
     <Card className={classes.root}>
 
-          <GridListTile >
+          
             <CardMedia
           className={classes.media}
           image="https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_1280.jpg "
           title="Contemplative Reptile"
         />
-        
+        <GridListTile >
+
      <GridListTileBar
              
               subtitle={<span>by: kres</span>}
