@@ -1,87 +1,218 @@
-
-
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
 import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-import IconButton from '@material-ui/core/IconButton';
-import StarBorderIcon from '@material-ui/icons/StarBorder';
-import tileData from './tileData';
-import ListSubheader from '@material-ui/core/ListSubheader';
+import Paper from '@material-ui/core/Paper';
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
 
-
-const useStyles = makeStyles(theme => ({
+const styles = theme => ({
   root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
+     flexGrow: 1,
+     marginTop: 30,
+     display: 'flex',
+     oveflow: "auto",
+     maxWidth: "100%"
   },
-  gridList: {
-    flexWrap: 'nowrap',
-    // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
-    transform: 'translateZ(0)',
+  card: {
+    minWidth: 180,
+    marginBottom:20
+  },
+  bullet: {
+    display: 'inline-block',
+    margin: '0 2px',
+    transform: 'scale(0.8)',
   },
   title: {
-    color: theme.palette.primary.light,
+    fontSize: 14,
   },
-  titleBar: {
-    background:
-      'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
+  pos: {
+    marginBottom: 12,
   },
-}));
+  content: {
+    flexGrow: 1
+  },
+  paper: {
+    maxWidth: 800,
+    margin: `${theme.spacing.unit}px auto`,
+    padding: theme.spacing(2)
+  },
+});
 
-/**
- * The example data is structured as follows:
- *
- * 
- * [etc...]
- *
- * const tileData = [
- *   {
- *     img: image,
- *     title: 'Image',
- *     author: 'author',
- *   },
- *   {
- *     [etc...]
- *   },
- * ];
- */
-
-const Icons = () => {
-  const classes = useStyles();
+function Icons(props) {
+  const { classes } = props;
+  const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <div className={classes.root}>
+   
+   
+    <main className={classes.content}>
+       <div className={classes.toolbar} />
+       <div className={classes.paper}>
 
-<GridList cellHeight={180} className={classes.gridList}>
-        <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
-          <ListSubheader component="div">Makanan</ListSubheader>
-        </GridListTile></GridList>
-      <GridList className={classes.gridList} cols={2.5}>
-        {tileData.map(tile => (
-          <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
-            <GridListTileBar
-              title={tile.title}
-              classes={{
-                root: classes.titleBar,
-                title: classes.title,
-              }}
-              actionIcon={
-                <IconButton aria-label={`star ${tile.title}`}>
-                  <StarBorderIcon className={classes.title} />
-                </IconButton>
-              }
-            />
-          </GridListTile>
-        ))}
-      </GridList>
-    </div>
+       <Grid container className={classes.root} spacing={16}>
+               <Grid item xs={2}>
+                <Paper className={classes.paper}>
+                     <Card className={classes.card}>
+                        <CardContent>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                            Word of the Day
+                            </Typography>
+                            <Typography variant="h5" component="h2">
+                            Task 1
+                            </Typography>
+                            <Typography className={classes.pos} color="textSecondary">
+                            adjective
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small">Learn More</Button>
+                        </CardActions>
+                    </Card>
+                    <Card className={classes.card}>
+                        <CardContent>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                            Word of the Day
+                            </Typography>
+                            <Typography variant="h5" component="h2">
+                            Task 1
+                            </Typography>
+                            <Typography className={classes.pos} color="textSecondary">
+                            adjective
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small">Learn More</Button>
+                        </CardActions>
+                    </Card>
+                    <Card className={classes.card}>
+                        <CardContent>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                            Word of the Day
+                            </Typography>
+                            <Typography variant="h5" component="h2">
+                            Task 1
+                            </Typography>
+                            <Typography className={classes.pos} color="textSecondary">
+                            adjective
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small">Learn More</Button>
+                        </CardActions>
+                    </Card>
+                    <Card className={classes.card}>
+                        <CardContent>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                            Word of the Day
+                            </Typography>
+                            <Typography variant="h5" component="h2">
+                            Task 1
+                            </Typography>
+                            <Typography className={classes.pos} color="textSecondary">
+                            adjective
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small">Learn More</Button>
+                        </CardActions>
+                    </Card>
+                </Paper>
+
+                </Grid>
+                <Grid item xs={2}>
+                <Paper className={classes.paper}>
+                <Card className={classes.card}>
+                    <CardContent>
+                        <Typography className={classes.title} color="textSecondary" gutterBottom>
+                        Word of the Day
+                        </Typography>
+                        <Typography variant="h5" component="h2">
+                        Task 1
+                        </Typography>
+                        <Typography className={classes.pos} color="textSecondary">
+                        adjective
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small">Learn More</Button>
+                    </CardActions>
+                </Card>
+                </Paper>
+                </Grid>
+                <Grid item xs={2}>
+                <Paper className={classes.paper}>
+                    <Card className={classes.card}>
+                        <CardContent>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                            Word of the Day
+                            </Typography>
+                            <Typography variant="h5" component="h2">
+                            Task 1
+                            </Typography>
+                            <Typography className={classes.pos} color="textSecondary">
+                            adjective
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small">Learn More</Button>
+                        </CardActions>
+                    </Card>
+                </Paper>
+                </Grid>
+                <Grid item xs={2}>
+                <Paper className={classes.paper}>
+                    <Card className={classes.card}>
+                        <CardContent>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                            Word of the Day Testing
+                            </Typography>
+                            <Typography variant="h5" component="h2">
+                            Task 10000
+                            </Typography>
+                            <Typography className={classes.pos} color="textSecondary">
+                            adjective
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small">Learn More</Button>
+                        </CardActions>
+                    </Card>
+                </Paper>
+                </Grid>
+                <Grid item xs={2}>
+                <Paper className={classes.paper}>
+                    <Card className={classes.card}>
+                        <CardContent>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                            Word of the Day Testing
+                            </Typography>
+                            <Typography variant="h5" component="h2">
+                            Task 11562
+                            </Typography>
+                            <Typography className={classes.pos} color="textSecondary">
+                            adjective
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small">Learn More</Button>
+                        </CardActions>
+                    </Card>
+                </Paper>
+                </Grid>
+        </Grid>
+       </div>
+    </main>
+    
   );
+}
+
+Icons.propTypes = {
+  classes: PropTypes.object.isRequired,
 };
 
-export default Icons;
+export default withStyles(styles, { withTheme: true })(Icons);
