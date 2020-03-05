@@ -51,7 +51,7 @@ const useStyles = makeStyles(theme => ({
  * ];
  */
 
-const Icons = () => {
+const Makanan = () => {
   const classes = useStyles();
 
   return (
@@ -84,4 +84,4 @@ const Icons = () => {
   );
 };
 
-export default Icons;
+export default Makanan;
