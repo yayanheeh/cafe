@@ -46,7 +46,7 @@ const useStyles = makeStyles(theme => ({
  *   },
  * ];
  */
-export default function Single() {
+const Single = () => {
   const classes = useStyles();
 
   return (
@@ -73,3 +73,4 @@ export default function Single() {
     </div>
   );
 }
+export default Single;
