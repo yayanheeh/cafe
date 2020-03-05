@@ -26,32 +26,6 @@ const Dashboard = () => {
   const classes = useStyles();
 
   return (
-<Hidden smUp>
-
-        <Grid
-          item
-          lg={3}
-          sm={6}
-          xl={3}
-          xs={12}
-        >
-          <Makanan />
-        </Grid>
-        <Grid
-          item
-          lg={3}
-          sm={6}
-          xl={3}
-          xs={12}
-        >
-          <Minuman />
-   </Grid>     
-
-</Hidden>
-
-
-
-
 
     <div className={classes.root}>
 
