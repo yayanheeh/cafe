@@ -25,6 +25,33 @@ const Dashboard = () => {
 
   return (
     <div className={classes.root}>
+
+<Hidden smUp>
+<Grid
+    
+        spacing={1}
+      >
+
+        <Grid
+          item
+          lg={3}
+          sm={6}
+          xl={3}
+          xs={6}
+        >
+          <Budget />
+        </Grid>
+        <Grid
+          item
+          lg={3}
+          sm={6}
+          xl={3}
+          xs={6}
+        >
+          <TotalUsers />
+        </Grid>
+
+</Hidden></Grid>
       <Grid
         container
         spacing={1}
