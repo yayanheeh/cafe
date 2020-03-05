@@ -18,7 +18,7 @@ import {
 
 const useStyles = makeStyles(theme => ({
   root: {
-    padding: theme.spacing(4)
+    padding: theme.spacing(1)
   }
 }));
 
@@ -26,7 +26,6 @@ const Dashboard = () => {
   const classes = useStyles();
 
   return (
-<Makanan />
    <div className={classes.root}>
 <Hidden smUp>
 
