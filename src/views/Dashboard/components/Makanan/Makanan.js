@@ -60,7 +60,7 @@ const Makanan = () => {
           <ListSubheader component>Makanan</ListSubheader>
         </GridListTile></GridList>
 
-      <GridList className={classes.gridList} cols={2.5}>
+      <div className={classes.gridList} cols={2.5}>
         {tileData.map(tile => (
           <GridListTile key={tile.img}>
             <img src={tile.img} alt={tile.title} />
@@ -78,7 +78,7 @@ const Makanan = () => {
             />
           </GridListTile>
         ))}    
-    />
+    </div>
   );
 };
 
