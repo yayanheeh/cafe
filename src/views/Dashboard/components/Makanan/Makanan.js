@@ -75,9 +75,9 @@ const Makanan = () => {
                 </IconButton>
               }
             />
-          </GridListTile>
+          </GridListTile></GridList>
         ))}
-      </GridList>
+      
     
   );
 };
