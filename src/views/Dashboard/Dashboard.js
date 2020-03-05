@@ -11,6 +11,8 @@ import {
   LatestSales,
   UsersByDevice,
   LatestProducts,
+  Makanan,
+  Minuman,
   LatestOrders
 } from './components';
 
@@ -37,18 +39,18 @@ const Dashboard = () => {
           lg={3}
           sm={6}
           xl={3}
-          xs={6}
+          xs={12}
         >
-          <Budget />
+          <Makanan />
         </Grid>
         <Grid
           item
           lg={3}
           sm={6}
           xl={3}
-          xs={6}
+          xs={12}
         >
-          <TotalUsers />
+          <Minuman />
    </Grid>     </Grid>
 
 </Hidden>
