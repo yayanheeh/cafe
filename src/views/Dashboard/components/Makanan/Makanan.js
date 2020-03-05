@@ -60,9 +60,7 @@ const Makanan = () => {
   return (
     <div className={classes.root}>
 
-  <ListSubheader component="div" id="nested-list-subheader">
-         <p align="left"> Makanan</p>
-        </ListSubheader>
+
 
 <Typography
               className={classes.title}
