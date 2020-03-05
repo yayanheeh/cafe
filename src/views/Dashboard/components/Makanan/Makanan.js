@@ -87,11 +87,7 @@ export default function ScrollableTabsButtonAuto() {
       <TabPanel value={value} index={0}>
       
    
-<CardMedia
-          className={classes.media}
-          image="https://img.icons8.com/material/144/000000/facebook--v1.png"
-          title="Contemplative Reptile"
-        />
+<img src="https://img.icons8.com/material/144/000000/facebook--v1.png"/>
 
           
          
