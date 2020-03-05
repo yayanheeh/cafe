@@ -17,7 +17,7 @@ import { Typography } from '@material-ui/core';
 const useStyles = makeStyles(theme => ({
   root: {
 
-    textAlign: 'center',
+    textAlign: 'left',
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
