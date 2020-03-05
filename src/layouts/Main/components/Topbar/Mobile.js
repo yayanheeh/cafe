@@ -55,12 +55,12 @@ const Topbar = props => {
   return (
 
 
-    <AppBar title="My AppBar" style={{ backgroundColor: 'green' }} 
+    <AppBar title="My AppBar" style={{ backgroundColor: '#F9FAFC' }} 
    {...rest}
       className={clsx(classes.root, className)}
     >
 
-<Paper title="My Paper" style={{ backgroundColor: 'green' }} 
+<Paper
 
 component="form" className={classes.root}>
 
