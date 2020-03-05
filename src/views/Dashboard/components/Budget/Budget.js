@@ -39,10 +39,10 @@ export default function MediaCard() {
         />
         
      <GridListTileBar
-              title={Makanan}
+             
               subtitle={<span>by: kres</span>}
               actionIcon={
-                <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
+                <IconButton className={classes.icon}>
                   <InfoIcon />
                 </IconButton>
               }
