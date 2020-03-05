@@ -49,9 +49,9 @@ const Dashboard = () => {
           xs={6}
         >
           <TotalUsers />
-        </Grid>
+   </Grid>     </Grid>
 
-</Hidden></Grid>
+</Hidden>
       <Grid
         container
         spacing={1}
