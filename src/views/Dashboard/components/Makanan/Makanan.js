@@ -1,100 +1,80 @@
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
 
+const useStyles = makeStyles({
+  root: {
+    flexGrow: 1,
+  },
+});
+
+export default function CenteredTabs() {
+  const classes = useStyles();
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+  return (
+    <Paper className={classes.root}>
+      <Tabs
+        value={value}
+        onChange={handleChange}
+        indicatorColor="primary"
+        textColor="primary"
+        centered
+      >
+        <Tab label="Item One" />
+        <Tab label="Item Two" />
+        <Tab label="Item Three" />
 
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-import IconButton from '@material-ui/core/IconButton';
-import StarBorderIcon from '@material-ui/icons/StarBorder';
-import tileData from './tileData';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import { Typography } from '@material-ui/core';
-
 import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
 
-
-
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles({
   root: {
+    flexGrow: 1,
+  },
+});
 
-    textAlign: 'left',
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
-  },
-  gridList: {
-    flexWrap: 'nowrap',
-    // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
-    transform: 'translateZ(0)',
-  },
-  title: {
-    color: theme.palette.primary.light,
-  },
-  titleBar: {
-    background:
-      'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
-  },
-}));
-
-/**
- * The example data is structured as follows:
- *
- * 
- * [etc...]
- *
- * const tileData = [
- *   {
- *     img: image,
- *     title: 'Image',
- *     author: 'author',
- *   },
- *   {
- *     [etc...]
- *   },
- * ];
- */
-
-const Makanan = () => {
+export default function CenteredTabs() {
   const classes = useStyles();
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
 
   return (
-    <div className={classes.root}>
-
-
-
-<Typography
-              className={classes.title}
-              color="inherit"
-              gutterBottom
-              variant="body2"
-            >
-              Makanan1
-            </Typography>
-
-      <GridList className={classes.gridList} cols={2.5}>
-        
-
-
-
-        <Grid container item xs={12} spacing={3}>
-         Yan 1
-        </Grid>
-        <Grid container item xs={12} spacing={3}>
-          Yan 2
-        </Grid>
-        <Grid container item xs={12} spacing={3}>
-          Yan 3
-        </Grid>
-     
-<Grid container item xs={12} spacing={3}>
-          Yan 3a
-        </Grid>
-    </GridList></div>
+    <Paper className={classes.root}>
+      <Tabs
+        value={value}
+        onChange={handleChange}
+        indicatorColor="primary"
+        textColor="primary"
+        centered
+      >
+        <Tab label="Item One" />
+        <Tab label="Item Two" />
+        <Tab label="Item Three" />
+<Tab label="Item One" />
+        <Tab label="Item Two" />
+        <Tab label="Item Three" />
+<Tab label="Item One" />
+        <Tab label="Item Two" />
+        <Tab label="Item Three" />
+      </Tabs>
+    </Paper>
   );
-};
+}
 
-export default Makanan;
+      </Tabs>
+    </Paper>
+  );
+}
