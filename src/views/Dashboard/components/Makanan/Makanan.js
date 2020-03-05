@@ -56,7 +56,7 @@ export default function ScrollableTabsButtonAuto() {
   return (
     <div className={classes.root}>
       
-        <Tabs position="static" color="default">
+        <Tabs 
           value={value}
           onChange={handleChange}
           indicatorColor="primary"
