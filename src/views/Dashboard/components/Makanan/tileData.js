@@ -6,10 +6,10 @@ const tileData = [
   {
 
     img: 'https://material-ui.com/static/images/grid-list/breakfast.jpg',
-    title: '<Link component={RouterLink} to="/icons">
- Breakfast</Link>',
+    title: 'Breakfast',
     author: 'jill111',
     cols: 2,
+    url: 'https://detik.com'
     featured: true,
 
   },
