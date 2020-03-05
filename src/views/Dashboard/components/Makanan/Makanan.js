@@ -9,6 +9,9 @@ import IconButton from '@material-ui/core/IconButton';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import tileData from './tileData';
 import ListSubheader from '@material-ui/core/ListSubheader';
+import { Typography } from '@material-ui/core';
+
+
 
 
 const useStyles = makeStyles(theme => ({
@@ -60,6 +63,15 @@ const Makanan = () => {
   <ListSubheader component="div" id="nested-list-subheader">
          <p align="left"> Makanan</p>
         </ListSubheader>
+
+<Typography
+              className={classes.title}
+              color="inherit"
+              gutterBottom
+              variant="body2"
+            >
+              Makanan1
+            </Typography>
 
       <GridList className={classes.gridList} cols={2.5}>
         {tileData.map(tile => (
