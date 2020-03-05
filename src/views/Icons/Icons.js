@@ -37,7 +37,7 @@ const styles = theme => ({
     flexGrow: 1
   },
   paper: {
-    maxWidth: 800,
+    maxWidth: 2000,
     margin: `${theme.spacing.unit}px auto`,
     padding: theme.spacing(2)
   },
