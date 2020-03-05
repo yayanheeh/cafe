@@ -14,6 +14,8 @@ import {
   Settings as SettingsView,
   SignUp as SignUpView,
   SignIn as SignInView,
+Single as SingleView,
+
   NotFound as NotFoundView
 } from './views';
 
