@@ -46,7 +46,7 @@ const useStyles = makeStyles(theme => ({
  *   },
  * ];
  */
-export default function SingleLineGridList() {
+export default function Single() {
   const classes = useStyles();
 
   return (
