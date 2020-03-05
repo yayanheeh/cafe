@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 import { Grid } from '@material-ui/core';
+import Hidden from '@material-ui/core/Hidden';
 
 import {
   Budget,
@@ -28,6 +29,8 @@ const Dashboard = () => {
         container
         spacing={1}
       >
+
+<Hidden smUp>
         <Grid
           item
           lg={3}
@@ -46,6 +49,8 @@ const Dashboard = () => {
         >
           <TotalUsers />
         </Grid>
+
+</Hidden>
         <Grid
           item
           lg={3}
