@@ -26,6 +26,7 @@ const Dashboard = () => {
   const classes = useStyles();
 
   return (
+<Makanan />
    <div className={classes.root}>
 <Hidden smUp>
 
