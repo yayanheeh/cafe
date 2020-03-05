@@ -49,11 +49,6 @@ function a11yProps(index) {
 
 const useStyles = makeStyles(theme => ({
   root: {
-maxWidth: 345,
-  }
-  media: {
-    height: 140,
-}
     flexGrow: 1,
     width: '100%',
     backgroundColor: theme.palette.background.paper,
