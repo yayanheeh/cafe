@@ -26,13 +26,7 @@ const Dashboard = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-
 <Hidden smUp>
-<Grid
-    
-        spacing={1}
-      >
 
         <Grid
           item
@@ -51,7 +45,36 @@ const Dashboard = () => {
           xs={12}
         >
           <Minuman />
-   </Grid>     </Grid>
+   </Grid>     
+
+</Hidden>
+
+
+
+
+
+    <div className={classes.root}>
+
+<Hidden smUp>
+
+        <Grid
+          item
+          lg={3}
+          sm={6}
+          xl={3}
+          xs={12}
+        >
+          <Makanan />
+        </Grid>
+        <Grid
+          item
+          lg={3}
+          sm={6}
+          xl={3}
+          xs={12}
+        >
+          <Minuman />
+   </Grid>     
 
 </Hidden>
       <Grid
