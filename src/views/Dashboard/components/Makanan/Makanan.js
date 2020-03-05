@@ -55,6 +55,8 @@ const Makanan = () => {
   const classes = useStyles();
 
   return (
+    <div className={classes.root}>
+
 <GridList cellHeight={180} className={classes.gridList}>
         <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
           <ListSubheader component="div">Makanan</ListSubheader>
@@ -78,7 +80,7 @@ const Makanan = () => {
             />
           </GridListTile>
         ))}    
-    </GridList>
+    </GridList></div>
   );
 };
 
