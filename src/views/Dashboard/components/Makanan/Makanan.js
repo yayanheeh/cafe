@@ -6,6 +6,9 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import { Grid } from '@material-ui/core';    
+   
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -75,7 +78,22 @@ export default function ScrollableTabsButtonAuto() {
         </Tabs>
      
       <TabPanel value={value} index={0}>
-      tes  
+      
+    <Grid lg={3}
+          sm={3}
+          xl={3}
+          xs={12}
+        >
+          Tes 1
+        </Grid> 
+  <Grid lg={3}
+          sm={3}
+          xl={3}
+          xs={12}
+        >
+          Tes 2
+        </Grid>
+
       </TabPanel>
       <TabPanel value={value} index={1}>
         Item Two
