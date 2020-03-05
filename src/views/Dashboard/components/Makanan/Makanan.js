@@ -50,10 +50,10 @@ function a11yProps(index) {
 const useStyles = makeStyles(theme => ({
   root: {
 maxWidth: 345,
-  },
+  }
   media: {
     height: 140,
-},
+}
     flexGrow: 1,
     width: '100%',
     backgroundColor: theme.palette.background.paper,
@@ -91,7 +91,13 @@ export default function ScrollableTabsButtonAuto() {
      
       <TabPanel value={value} index={0}>
       
-    <Tab label>Tes</Tab>
+    <Tab label>
+<CardMedia
+          className={classes.media}
+          image="https://material-ui.com/static/images/grid-list/burgers.jpg"
+          title="Contemplative Reptile"
+        />
+</Tab>
           <Tab label>Tes2</Tab>
          
 
