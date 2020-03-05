@@ -58,7 +58,7 @@ const Makanan = () => {
     <div className={classes.root}>
 
   <ListSubheader component="div" id="nested-list-subheader">
-          Nested List Items
+         <p align="left"> Makanan</p>
         </ListSubheader>
 
       <GridList className={classes.gridList} cols={2.5}>
