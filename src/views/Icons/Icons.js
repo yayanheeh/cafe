@@ -8,6 +8,7 @@ import GridListTileBar from '@material-ui/core/GridListTileBar';
 import IconButton from '@material-ui/core/IconButton';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import tileData from './tileData';
+import ListSubheader from '@material-ui/core/ListSubheader';
 
 
 const useStyles = makeStyles(theme => ({
@@ -55,6 +56,11 @@ const Icons = () => {
 
   return (
     <div className={classes.root}>
+
+<GridList cellHeight={180} className={classes.gridList}>
+        <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
+          <ListSubheader component="div">Makanan</ListSubheader>
+        </GridListTile>
       <GridList className={classes.gridList} cols={2.5}>
         {tileData.map(tile => (
           <GridListTile key={tile.img}>
