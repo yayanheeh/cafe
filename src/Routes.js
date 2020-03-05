@@ -14,8 +14,8 @@ import {
   Settings as SettingsView,
   SignUp as SignUpView,
   SignIn as SignInView,
- Minuman as Minuman,
-
+ Minuman as MinumanView,
+Tes as TesView,
   NotFound as NotFoundView
 } from './views';
 
@@ -88,7 +88,12 @@ const Routes = () => {
         layout={MinimalLayout}
         path="/minuman"
       />
-      
+      <RouteWithLayout
+        component={Tes}
+        exact
+        layout={MinimalLayout}
+        path="/tes"
+      />
       <RouteWithLayout
         component={NotFoundView}
         exact
