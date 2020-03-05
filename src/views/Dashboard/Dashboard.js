@@ -58,7 +58,7 @@ const Dashboard = () => {
    </Grid>     
 
 </Hidden>
-      
+      <Hidden smDown>
         <Grid
           item
           lg={3}
@@ -113,7 +113,7 @@ const Dashboard = () => {
         >
           <LatestOrders />
         </Grid>
-      
+      </Hidden>
     </div>
   );
 };
