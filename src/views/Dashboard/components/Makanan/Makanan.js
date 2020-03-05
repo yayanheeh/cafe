@@ -82,14 +82,14 @@ export default function ScrollableTabsButtonAuto() {
     <Grid lg={3}
           sm={3}
           xl={3}
-          xs={12}
+          xs={6}
         >
           Tes 1
         </Grid> 
   <Grid lg={3}
           sm={3}
           xl={3}
-          xs={12}
+          xs={6}
         >
           Tes 2
         </Grid>
