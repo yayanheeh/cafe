@@ -57,7 +57,7 @@ const Makanan = () => {
   return (
 <GridList cellHeight={180} className={classes.gridList}>
         <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
-          <ListSubheader component="div">Makanan</ListSubheader>
+          <ListSubheader component>Makanan</ListSubheader>
         </GridListTile></GridList>
       <GridList className={classes.gridList} cols={2.5}>
         {tileData.map(tile => (
