@@ -132,7 +132,7 @@ const Dashboard = () => {
         >
           <LatestOrders />
         </Grid>
-      </Grid>
+      
     </div>
   );
 };
