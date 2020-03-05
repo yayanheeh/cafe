@@ -76,37 +76,23 @@ const Makanan = () => {
             </Typography>
 
       <GridList className={classes.gridList} cols={2.5}>
-        {tileData.map(tile => (
-          <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
-            <GridListTileBar
-              title={tile.title}
-              classes={{
-                root: classes.titleBar,
-                title: classes.title,
-              }}
-              actionIcon={
-                <IconButton aria-label={`star ${tile.title}`}>
-                  <StarBorderIcon className={classes.title} />
-                </IconButton>
-              }
-            />
-          </GridListTile>
-        ))}    
+        
 
 
-<Grid container spacing={1}>
-        <Grid container item xs={12} spacing={3}>
-         
-        </Grid>
-        <Grid container item xs={12} spacing={3}>
-          
-        </Grid>
-        <Grid container item xs={12} spacing={3}>
-          
-        </Grid>
-      </Grid>
 
+        <Grid container item xs={12} spacing={3}>
+         Yan 1
+        </Grid>
+        <Grid container item xs={12} spacing={3}>
+          Yan 2
+        </Grid>
+        <Grid container item xs={12} spacing={3}>
+          Yan 3
+        </Grid>
+     
+<Grid container item xs={12} spacing={3}>
+          Yan 3a
+        </Grid>
     </GridList></div>
   );
 };
