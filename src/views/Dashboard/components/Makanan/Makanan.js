@@ -86,14 +86,14 @@ export default function ScrollableTabsButtonAuto() {
      
       <TabPanel value={value} index={0}>
       
-    <Tab label>
+   
 <CardMedia
           className={classes.media}
-          image="https://material-ui.com/static/images/grid-list/burgers.jpg"
+          image="https://img.icons8.com/material/144/000000/facebook--v1.png"
           title="Contemplative Reptile"
         />
-</Tab>
-          <Tab label>Tes2</Tab>
+
+          
          
 
       </TabPanel>
