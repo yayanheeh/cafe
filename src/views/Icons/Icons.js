@@ -68,7 +68,7 @@ export default function FullWidthGrid() {
 </Grid>
 
 <Grid container spacing={1}>
-        <Grid item xs={3}><Card className={classes.root}>
+        <Grid item xs={6}><Card className={classes.root}>
 
  <CardActionArea>
 
@@ -83,7 +83,7 @@ export default function FullWidthGrid() {
             Makan    </Typography>
         </CardContent>    </CardActionArea></Card>
 </Grid>
-<Grid item xs={3}><Card className={classes.root}>
+<Grid item xs={6}><Card className={classes.root}>
 
  <CardActionArea>
 
@@ -99,7 +99,7 @@ export default function FullWidthGrid() {
         </CardContent>    </CardActionArea></Card>
 </Grid>
 
-<Grid item xs={3}><Card className={classes.root}>
+<Grid item xs={6}><Card className={classes.root}>
 
  <CardActionArea>
 
