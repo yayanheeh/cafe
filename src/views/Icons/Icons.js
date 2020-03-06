@@ -23,9 +23,9 @@ export default function ImgMediaCard() {
     <Card className={classes.root}>
      <Grid
                lg={3}
-          sm={6}
+          sm={3}
           xl={3}
-          xs={12}
+          xs={6}
         >
 <CardActionArea>
         <CardMedia
@@ -45,9 +45,9 @@ export default function ImgMediaCard() {
 
 <Grid
                lg={3}
-          sm={6}
+          sm={3}
           xl={3}
-          xs={12}
+          xs={6}
         >
 <CardActionArea>
         <CardMedia
