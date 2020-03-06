@@ -25,7 +25,7 @@ export default function FullWidthGrid() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <Card className={classes.root}>
       <Grid container spacing={1}>
         
         <Grid item xs={6} sm={3}>
@@ -58,6 +58,6 @@ export default function FullWidthGrid() {
         </CardContent>     </CardActionArea>   </Grid>
         
       </Grid>
-    </div>
+    </Card>
   );
 }
