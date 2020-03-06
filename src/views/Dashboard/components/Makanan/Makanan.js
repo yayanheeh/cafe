@@ -134,8 +134,8 @@ export default function ScrollableTabsButtonAuto() {
         >
 
 <Table className={classes.table} aria-label="simple table">
-        <TableHead>
-          <TableRow>
+        
+          
             <TableCell>
 
 <Card className={classes.root}>
@@ -152,8 +152,8 @@ export default function ScrollableTabsButtonAuto() {
  </TableCell>
 <TableCell><img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
        </TableCell>
-            </TableRow>
-        </TableHead>
+           
+        
          </Table>
 
 </Tabs>
