@@ -32,13 +32,10 @@ export default function IconTabs() {
         textColor="primary"
         aria-label="icon tabs example"
       >
-        <Tab icon={<PhoneIcon />} aria-label="phone" />
+        <Tab icon={<img src="https://img.icons8.com/material/144/000000/facebook--v1.png' />} aria-label="phone" />
         <Tab icon={<FavoriteIcon />} aria-label="favorite" />
         <Tab icon={<PersonPinIcon />} aria-label="person" />
-      <Tab icon={<PhoneIcon />} aria-label="phone" />
-        <Tab icon={<FavoriteIcon />} aria-label="favorite" />
-        <Tab icon={<PersonPinIcon />} aria-label="person" />
-  
+      
 
 </Tabs>
     </Paper>
