@@ -21,12 +21,7 @@ export default function ImgMediaCard() {
 
   return (
     <div className={classes.root}>
-     <Grid
-               lg={3}
-          sm={3}
-          xl={3}
-          xs={6}
-        >
+     <Grid item xs={6} sm={3}>
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
@@ -42,12 +37,7 @@ export default function ImgMediaCard() {
      
 </Grid>
 
-<Grid
-               lg={3}
-          sm={3}
-          xl={3}
-          xs={6}
-        >
+<Grid item xs={6} sm={3}>
 
         <CardMedia
           component="img"
