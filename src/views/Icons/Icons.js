@@ -55,7 +55,14 @@ export default function ImgMediaCard() {
 </Grid>
 
  
-
+<Grid item xs={6} sm={3}>
+          1        </Grid>
+        <Grid item xs={6} sm={3}>
+          2        </Grid>
+        <Grid item xs={6} sm={3}>
+          3        </Grid>
+        <Grid item xs={6} sm={3}>
+          4        </Grid>
 
       
     </div>
