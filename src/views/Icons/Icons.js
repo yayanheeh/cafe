@@ -59,8 +59,8 @@ export default function FullWidthGrid() {
           
           <Typography variant="body2" color="textSecondary" component="p">
             Makan    </Typography>
-        </CardContent>     </CardActionArea>   </Grid>
-        </Card>
+        </CardContent>     </CardActionArea>   </Card>
+        
       </Grid></Grid>
     </div>
   );
