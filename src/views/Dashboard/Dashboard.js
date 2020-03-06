@@ -57,13 +57,7 @@ function a11yProps(index) {
   };
 }
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-    width: '100%',
-    backgroundColor: theme.palette.background.paper,
-  },
-}));
+
 
 export default function ScrollableTabsButtonAuto() {
   const classes = useStyles();
@@ -72,6 +66,24 @@ export default function ScrollableTabsButtonAuto() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    padding: theme.spacing(1)
+    flexGrow: 1,
+    width: '100%',
+    backgroundColor: theme.palette.background.paper,
+ 
+  }
+}));
+
+
+
+
+const Dashboard = () => {
+  const classes = useStyles();
+
 
   return (
    <div className={classes.root}>
