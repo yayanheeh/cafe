@@ -59,14 +59,6 @@ IconContainer.propTypes = {
   value: PropTypes.number.isRequired,
 };
 
-
-
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 200,
-  },
-});
-
 export default function ImgMediaCard() {
   const classes = useStyles();
 
