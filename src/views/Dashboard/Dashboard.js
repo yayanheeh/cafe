@@ -198,6 +198,7 @@ const Dashboard = () => {
       </Hidden>
     </div>
   );
-}};
+};
+};
 
 export default Dashboard;
