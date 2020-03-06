@@ -28,7 +28,7 @@ const rows = [
 export default function SimpleTable() {
   const classes = useStyles();
 
-  return (
+  return (    <div className={classes.root}>
     
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
@@ -42,6 +42,6 @@ export default function SimpleTable() {
         </TableHead>
         
       </Table>
-   
+   </div>
   );
 }
