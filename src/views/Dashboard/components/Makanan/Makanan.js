@@ -124,23 +124,20 @@ export default function ScrollableTabsButtonAuto() {
       </TabPanel>
 
 
-<Tabs 
-          value={value}
-          onChange={handleChange}
-          indicatorColor="primary"
-          textColor="primary"
-          variant="scrollable"
-          scrollButtons="auto"
-          aria-label="scrollable auto tabs example"
-        >
-          <Tab label="<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>" />
-          <Tab label="yan Item Two" />
-          <Tab label="Item Three"  />
-          <Tab label="Item Four" />
-          <Tab label="Item Five"  />
-          <Tab label="Item Six" />
-          <Tab label="Item Seven" />
-        </Tabs>
+
+<Table className={classes.table} aria-label="simple table">
+        <TableHead>
+          <TableRow>
+            <TableCell><img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/> </TableCell>
+<TableCell><img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+       </TableCell>
+<TableCell><img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+       </TableCell>
+            </TableRow>
+        </TableHead>
+         </Table>
+
+
     </div>
   );
 }
