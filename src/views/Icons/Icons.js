@@ -27,7 +27,6 @@ export default function ImgMediaCard() {
           xl={3}
           xs={6}
         >
-<CardActionArea>
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
@@ -40,7 +39,7 @@ export default function ImgMediaCard() {
           <Typography variant="body2" color="textSecondary" component="p">
             Spageti </Typography>
         </CardContent>
-      </CardActionArea>
+     
 </Grid>
 
 <Grid
@@ -49,7 +48,7 @@ export default function ImgMediaCard() {
           xl={3}
           xs={6}
         >
-<CardActionArea>
+
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
@@ -62,7 +61,7 @@ export default function ImgMediaCard() {
           <Typography variant="body2" color="textSecondary" component="p">
             Spageti </Typography>
         </CardContent>
-      </CardActionArea>
+     
 </Grid>
 
  
