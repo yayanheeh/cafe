@@ -7,7 +7,10 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import { Grid } from '@material-ui/core';    
-   
+  
+import Link from '@material-ui/core/Link';
+
+ 
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
@@ -133,28 +136,26 @@ export default function ScrollableTabsButtonAuto() {
           aria-label="scrollable auto tabs example"
         >
 
-<Table className={classes.table} aria-label="simple table">
-        
           
-            <TableCell>
+  <Link href="icons" onClick={preventDefault}>
+                 
 
 <Card className={classes.root}>
       <CardContent>
 
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/> 
-</CardContent> </Card>
-</TableCell>
-<TableCell>
+</CardContent> </Card></Link>
+<Link href="#" onClick={preventDefault}>
+       
 <Card className={classes.root}>
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
-      </CardContent> </Card>
- </TableCell>
-<TableCell><img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
-       </TableCell>
+      </CardContent> </Card></Link>
+ <<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+     
            
         
-         </Table>
+        
 
 </Tabs>
     </div>
