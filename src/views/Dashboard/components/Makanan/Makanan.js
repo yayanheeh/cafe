@@ -133,7 +133,7 @@ export default function ScrollableTabsButtonAuto() {
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
         >
-          <Tab label="yanItem One" />
+          <Tab label="<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>" />
           <Tab label="yan Item Two" />
           <Tab label="Item Three"  />
           <Tab label="Item Four" />
