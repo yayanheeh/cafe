@@ -61,7 +61,7 @@ export default function FullWidthGrid() {
             Makan    </Typography>
         </CardContent>     </CardActionArea>   </Grid>
         </Card>
-      </Grid>
+      </Grid></Grid>
     </div>
   );
 }
