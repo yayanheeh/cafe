@@ -198,6 +198,6 @@ const Dashboard = () => {
       </Hidden>
     </div>
   );
-};
+}};
 
-export default (Dashboard);
+export default Dashboard;
