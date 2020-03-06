@@ -66,6 +66,14 @@ export default function FullWidthGrid() {
 
 
 </Grid>
+
+<Grid container spacing={1}>
+        <Grid item xs={3}>tes</Grid>
+<Grid item xs={3}>tes</Grid>
+
+<Grid item xs={3}>tes</Grid>
+
+</Grid>
     </div>
   );
 }
