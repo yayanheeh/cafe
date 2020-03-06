@@ -151,7 +151,7 @@ export default function ScrollableTabsButtonAuto() {
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
       </CardContent> </Card></Link>
- <<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+ <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
      
            
         
