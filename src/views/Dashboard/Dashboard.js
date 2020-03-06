@@ -74,7 +74,7 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
     backgroundColor: theme.palette.background.paper,
 
-}}
+}
 }));
 
 
