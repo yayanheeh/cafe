@@ -1,42 +1,33 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import PhoneIcon from '@material-ui/icons/Phone';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import PersonPinIcon from '@material-ui/icons/PersonPin';
+import {GridList, GridTile} from 'material-ui/GridList';
 
-const useStyles = makeStyles({
+const styles = {
   root: {
-    flexGrow: 1,
-    maxWidth: 500,
+    "display": 'flex',
+    "flexWrap": 'wrap',
+    "justifyContent": 'space-around',
   },
-});
+  gridList: {
+    "width": 1000,
+    "height": 1000,
+    "overflowY": 'auto',
+  },
+  indvCell: {
+    "borderRadius": 25,
+  }
+};
 
-export default function IconTabs() {
-  const classes = useStyles();
-  const [value, setValue] = React.useState(0);
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
 
   return (
-    <Paper square className={classes.root}>
-      <Tabs
-        value={value}
-        onChange={handleChange}
-        variant="fullWidth"
-        indicatorColor="primary"
-        textColor="primary"
-        aria-label="icon tabs example"
-      >
-           <Tab icon={<FavoriteIcon />} aria-label="favorite" />
-        <Tab icon={<PersonPinIcon />} aria-label="person" />
-      
-
-</Tabs>
-    </Paper>
+    <div style={styles.root}>
+          <GridList
+            cellHeight={100}
+            style={styles.gridList}
+            cols={10}
+          >
+            Tes
+          </GridList>
+          </div>
   );
 }
