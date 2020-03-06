@@ -25,11 +25,13 @@ export default function FullWidthGrid() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <div ard className={classes.root}>
       <Grid container spacing={1}>
         
         <Grid item xs={6} sm={3}>
-     <CardActionArea>
+    <Card>
+
+ <CardActionArea>
 
  <CardMedia
           className={classes.media}
@@ -40,11 +42,13 @@ export default function FullWidthGrid() {
           
           <Typography variant="body2" color="textSecondary" component="p">
             Makan    </Typography>
-        </CardContent>    </CardActionArea>
+        </CardContent>    </CardActionArea></Card>
 
 </Grid>
         <Grid item xs={6} sm={3}>
-       <CardActionArea>  
+      
+<Card>
+ <CardActionArea>  
 
  <CardMedia
           className={classes.media}
@@ -56,8 +60,8 @@ export default function FullWidthGrid() {
           <Typography variant="body2" color="textSecondary" component="p">
             Makan    </Typography>
         </CardContent>     </CardActionArea>   </Grid>
-        
+        </Card>
       </Grid>
-    </Card>
+    </div>
   );
 }
