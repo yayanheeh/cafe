@@ -123,7 +123,15 @@ export default function ScrollableTabsButtonAuto() {
         Item Seven
       </TabPanel>
 
-
+<Tabs 
+          value={value}
+          onChange={handleChange}
+          indicatorColor="primary"
+          textColor="primary"
+          variant="scrollable"
+          scrollButtons="auto"
+          aria-label="scrollable auto tabs example"
+        >
 
 <Table className={classes.table} aria-label="simple table">
         <TableHead>
@@ -137,7 +145,7 @@ export default function ScrollableTabsButtonAuto() {
         </TableHead>
          </Table>
 
-
+</Tabs>
     </div>
   );
 }
