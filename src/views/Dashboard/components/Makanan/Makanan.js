@@ -55,7 +55,7 @@ function a11yProps(index) {
 
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 1,
+    flexGrow: 0,
     width: '100%',
     backgroundColor: theme.palette.background.paper,
   },
@@ -93,8 +93,6 @@ export default function ScrollableTabsButtonAuto() {
       <TabPanel value={value} index={0}>
       
    
-<img src="https://img.icons8.com/material/144/000000/facebook--v1.png"/>
-
           <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
