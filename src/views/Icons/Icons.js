@@ -20,7 +20,7 @@ export default function ImgMediaCard() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <div className={classes.root}>
      <Grid
                lg={3}
           sm={3}
@@ -68,6 +68,6 @@ export default function ImgMediaCard() {
 
 
       
-    </Card>
+    </div>
   );
 }
