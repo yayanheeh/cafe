@@ -66,6 +66,16 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
+
+export default function ScrollableTabsButtonAuto() {
+  const classes = useStyles();
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+
 const Dashboard = () => {
   const classes = useStyles();
 
