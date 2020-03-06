@@ -70,7 +70,6 @@ export default function ScrollableTabsButtonAuto() {
 
 const useStyles = makeStyles(theme => ({
   root: {
-    padding: theme.spacing(1)
     flexGrow: 1,
     width: '100%',
     backgroundColor: theme.palette.background.paper,
