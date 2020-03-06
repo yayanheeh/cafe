@@ -18,7 +18,6 @@ import Button from '@material-ui/core/Button';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 
@@ -96,8 +95,17 @@ export default function ScrollableTabsButtonAuto() {
    
 <img src="https://img.icons8.com/material/144/000000/facebook--v1.png"/>
 
-          
-         
+          <Table className={classes.table} aria-label="simple table">
+        <TableHead>
+          <TableRow>
+            <TableCell>Dessert </TableCell>
+            <TableCell align="right">Calories</TableCell>
+            <TableCell align="right">Fat</TableCell>
+            <TableCell align="right">Carbs</TableCell>
+            <TableCell align="right">Protein</TableCell>
+          </TableRow>
+        </TableHead>
+         </Table>
 
       </TabPanel>
       <TabPanel value={value} index={1}>
