@@ -73,11 +73,6 @@ export default function ScrollableTabsButtonAuto() {
     setValue(newValue);
   };
 
-
-
-const Dashboard = () => {
-  const classes = useStyles();
-
   return (
    <div className={classes.root}>
 
