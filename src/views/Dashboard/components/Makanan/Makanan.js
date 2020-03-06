@@ -122,6 +122,25 @@ export default function ScrollableTabsButtonAuto() {
       <TabPanel value={value} index={6}>
         Item Seven
       </TabPanel>
+
+
+<Tabs 
+          value={value}
+          onChange={handleChange}
+          indicatorColor="primary"
+          textColor="primary"
+          variant="scrollable"
+          scrollButtons="auto"
+          aria-label="scrollable auto tabs example"
+        >
+          <Tab label="yanItem One" />
+          <Tab label="yan Item Two" />
+          <Tab label="Item Three"  />
+          <Tab label="Item Four" />
+          <Tab label="Item Five"  />
+          <Tab label="Item Six" />
+          <Tab label="Item Seven" />
+        </Tabs>
     </div>
   );
 }
