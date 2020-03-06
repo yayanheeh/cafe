@@ -28,7 +28,7 @@ export default function FullWidthGrid() {
     <div className={classes.root}>
       <Grid container spacing={1}>
         
-        <Grid item xs={6} sm={3}>
+        <Grid item xs={6} sm={6}>
     <Card className={classes.root}>
 
  <CardActionArea>
@@ -45,7 +45,7 @@ export default function FullWidthGrid() {
         </CardContent>    </CardActionArea></Card>
 
 </Grid>
-        <Grid item xs={6} sm={3}>
+        <Grid item xs={6} sm={6}>
       
 <Card className={classes.root}>
  <CardActionArea>  
@@ -64,7 +64,7 @@ export default function FullWidthGrid() {
       </Grid>
 
 
-<Grid item xs={6} sm={3}>
+<Grid item xs={6} sm={6}>
       
 <Card className={classes.root}>
  <CardActionArea>  
