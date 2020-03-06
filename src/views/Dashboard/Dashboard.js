@@ -3,6 +3,20 @@ import { makeStyles } from '@material-ui/styles';
 import { Grid } from '@material-ui/core';
 import Hidden from '@material-ui/core/Hidden';
 
+import {
+  Budget,
+  TotalUsers,
+  TasksProgress,
+  TotalProfit,
+  LatestSales,
+  UsersByDevice,
+  LatestProducts,
+  Makanan,
+  Minuman,
+  LatestOrders
+} from './components';
+
+
 
 
 import PropTypes from 'prop-types';
@@ -45,18 +59,6 @@ function a11yProps(index) {
 
 
 
-import {
-  Budget,
-  TotalUsers,
-  TasksProgress,
-  TotalProfit,
-  LatestSales,
-  UsersByDevice,
-  LatestProducts,
-  Makanan,
-  Minuman,
-  LatestOrders
-} from './components';
 
 const useStyles = makeStyles(theme => ({
   root: {
