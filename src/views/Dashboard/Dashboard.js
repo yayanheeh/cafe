@@ -65,7 +65,7 @@ export default function ScrollableTabsButtonAuto() {
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
-  };
+ }};
 
 
 const useStyles = makeStyles(theme => ({
