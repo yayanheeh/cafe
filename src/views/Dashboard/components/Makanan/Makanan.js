@@ -137,23 +137,23 @@ export default function ScrollableTabsButtonAuto() {
         >
 
           
-  <Link href="icons" onClick={preventDefault}>
-                 
+                   
 
 <Card className={classes.root}>
       <CardContent>
 
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/> 
-</CardContent> </Card></Link>
-<Link href="#" onClick={preventDefault}>
-       
+</CardContent> </Card>
+ 
 <Card className={classes.root}>
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
-      </CardContent> </Card></Link>
+      </CardContent> </Card>
+<Card className={classes.root}>
+      <CardContent>
  <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
      
-           
+       </CardContent> </Card>    
         
         
 
