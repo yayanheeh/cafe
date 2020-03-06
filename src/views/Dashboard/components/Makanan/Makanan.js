@@ -136,9 +136,20 @@ export default function ScrollableTabsButtonAuto() {
 <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell><img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/> </TableCell>
-<TableCell><img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
-       </TableCell>
+            <TableCell>
+
+<Card className={classes.root}>
+      <CardContent>
+
+<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/> 
+</CardContent> </Card>
+</TableCell>
+<TableCell>
+<Card className={classes.root}>
+      <CardContent>
+<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+      </CardContent> </Card>
+ </TableCell>
 <TableCell><img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
        </TableCell>
             </TableRow>
