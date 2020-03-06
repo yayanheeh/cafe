@@ -29,7 +29,9 @@ export default function FullWidthGrid() {
       <Grid container spacing={1}>
         
         <Grid item xs={6} sm={3}>
-      <CardMedia
+     <CardActionArea>
+
+ <CardMedia
           className={classes.media}
           image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
           title="Contemplative Reptile"
@@ -38,11 +40,13 @@ export default function FullWidthGrid() {
           
           <Typography variant="body2" color="textSecondary" component="p">
             Makan    </Typography>
-        </CardContent>    
+        </CardContent>    </CardActionArea>
 
 </Grid>
         <Grid item xs={6} sm={3}>
-          <CardMedia
+       <CardActionArea>  
+
+ <CardMedia
           className={classes.media}
           image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
           title="Contemplative Reptile"
@@ -51,7 +55,7 @@ export default function FullWidthGrid() {
           
           <Typography variant="body2" color="textSecondary" component="p">
             Makan    </Typography>
-        </CardContent>        </Grid>
+        </CardContent>     </CardActionArea>   </Grid>
         
       </Grid>
     </div>
