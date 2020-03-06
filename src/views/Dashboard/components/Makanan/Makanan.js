@@ -99,11 +99,9 @@ export default function ScrollableTabsButtonAuto() {
         <TableHead>
           <TableRow>
             <TableCell>Dessert </TableCell>
-            <TableCell align="right">Calories</TableCell>
-            <TableCell align="right">Fat</TableCell>
-            <TableCell align="right">Carbs</TableCell>
-            <TableCell align="right">Protein</TableCell>
-          </TableRow>
+<TableCell>Dessert 1</TableCell>
+<TableCell>Dessert 2</TableCell>
+            </TableRow>
         </TableHead>
          </Table>
 
