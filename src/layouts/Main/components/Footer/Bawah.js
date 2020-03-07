@@ -9,6 +9,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 import Book from '@material-ui/icons/Book';
 import Forum from '@material-ui/icons/Forum';
 import Hidden from '@material-ui/core/Hidden';
+import { white } from '@material-ui/core/colors';
 
 
 import Home from '@material-ui/icons/Home';
@@ -46,7 +47,7 @@ className={classes.stickToBottom}
         to="/dashboard"
         label="Home"
         value="Home"
-        icon={<Home color="primary" />}
+        icon={<Home style={{ color: white[500] }} />}
         className={classes.content}
     />
 
