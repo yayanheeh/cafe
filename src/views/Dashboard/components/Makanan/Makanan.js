@@ -131,6 +131,13 @@ export default function ScrollableTabsButtonAuto() {
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+
+<Button size="small" color="primary">
+          Esteh
+        </Button>
+        <Button size="small" color="primary">
+          Rp 20.000
+        </Button>
       </CardContent> </Card></td>
 </tr></table>             
 
