@@ -149,27 +149,69 @@ export default function ScrollableTabsButtonAuto() {
 
 </Tabs>
 
+<Tabs 
+          value={value}
+          onChange={handleChange}
+          indicatorColor="primary"
+          textColor="primary"
+          variant="scrollable"
+          scrollButtons="auto"
+          aria-label="scrollable auto tabs example"
+        >
+
 <CardActions>
         <Button size="small" color="primary">
-          Share
+          <CardMedia
+          className={classes.media}
+          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
+          title="Contemplative Reptile"
+          
+        />
         </Button>
         <Button size="small" color="primary">
-          Learn More
+          <CardMedia
+          className={classes.media}
+          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
+          title="Contemplative Reptile"
+          
+        />
         </Button>
 <Button size="small" color="primary">
-          Share
+          <CardMedia
+          className={classes.media}
+          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
+          title="Contemplative Reptile"
+          
+        />
         </Button>
         <Button size="small" color="primary">
-          Learn More
+          <CardMedia
+          className={classes.media}
+          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
+          title="Contemplative Reptile"
+          
+        />
         </Button>
 <Button size="small" color="primary">
-          Share
+          <CardMedia
+          className={classes.media}
+          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
+          title="Contemplative Reptile"
+          
+        />
         </Button>
         <Button size="small" color="primary">
-          Learn More
+          <CardMedia
+          className={classes.media}
+          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
+          title="Contemplative Reptile"
+          
+        />
         </Button>
 
       </CardActions>
+
+</Tabs>
 
     </div>
   );
