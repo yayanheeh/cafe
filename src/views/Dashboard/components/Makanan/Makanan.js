@@ -145,10 +145,10 @@ export default function ScrollableTabsButtonAuto() {
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
      <GridListTileBar
-              title='Es teh'
+              title={Es teh}
               subtitle={<span>by: Kres</span>}
               actionIcon={
-                <IconButton aria-label='haaa' className={classes.icon}>
+                <IconButton aria-label={haaa} className={classes.icon}>
                   <InfoIcon />
                 </IconButton>
               }
