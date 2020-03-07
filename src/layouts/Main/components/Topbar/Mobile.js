@@ -73,7 +73,7 @@ component="form" className={classes.root}>
           </IconButton>
       <InputBase 
         className={classes.input}
-        placeholder="Search Google Maps"
+        placeholder="Pencarian..."
         inputProps={{ 'aria-label': 'search pencarian' }}
       />
       <IconButton type="submit" className={classes.iconButton} aria-label="search">
