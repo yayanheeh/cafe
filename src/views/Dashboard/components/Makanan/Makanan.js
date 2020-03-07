@@ -106,7 +106,7 @@ export default function ScrollableTabsButtonAuto() {
         >
 
           
-      <table width="100%" border="0 "><tr>
+      <table width="1000%" border="0 "><tr>
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
      
 <CardMedia
