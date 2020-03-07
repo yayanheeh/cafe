@@ -133,7 +133,18 @@ export default function ScrollableTabsButtonAuto() {
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
-      </CardContent> </Card></td>&ensp; 
+     <GridListTileBar
+              title='Es teh'
+              subtitle={<span>by: Kres</span>}
+              actionIcon={
+                <IconButton aria-label='haaa' className={classes.icon}>
+                  <InfoIcon />
+                </IconButton>
+              }
+            />
+          </GridListTile>
+
+ </CardContent> </Card></td>&ensp; 
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
