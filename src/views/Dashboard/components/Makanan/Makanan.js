@@ -107,7 +107,7 @@ export default function ScrollableTabsButtonAuto() {
 
           
       <table width="1000%" border="0 "><tr>
-<td width="25%" bgcolor="" align="left"><Card className={classes.root}>
+<td width="25%" bgcolor="" align="left">
      
 <CardMedia
           className={classes.media}
@@ -124,7 +124,7 @@ export default function ScrollableTabsButtonAuto() {
             across all continents except Antarctica
           </Typography>
         </CardContent>
-  </Card></td>&ensp; 
+  </td>&ensp; 
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
