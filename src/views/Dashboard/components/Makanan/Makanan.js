@@ -18,14 +18,6 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import IconButton from '@material-ui/core/IconButton';
-import InfoIcon from '@material-ui/icons/Info';
-
-
 
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -123,39 +115,7 @@ export default function ScrollableTabsButtonAuto() {
 
           
       <table width="1000%" border="0 "><tr>
-<td width="25%" bgcolor="" align="left">
-     <Card className={classes.root}>
-<CardMedia
-          className={classes.media}
-          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-          
-        />
 
-<CardContent>
-          
-          <Button size="small" color="primary">
-          Es Teh
-        </Button>
-        <Typography variant="body2" color="textSecondary" component="p">
-            Rp 20.000 </Typography>
-        </CardContent></Card>
-  </td>&ensp; 
-<td width="25%" bgcolor="" align="left"><Card className={classes.root}>
-      <CardContent>
-<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
-     <GridListTileBar
-              title={Es teh}
-              subtitle={<span>by: Kres</span>}
-              actionIcon={
-                <IconButton aria-label={haaa} className={classes.icon}>
-                  <InfoIcon />
-                </IconButton>
-              }
-            
-          </GridListTileBar>
-
- </CardContent> </Card></td>&ensp; 
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
@@ -171,69 +131,6 @@ export default function ScrollableTabsButtonAuto() {
 
 </Tabs>
 
-<Tabs 
-          value={value}
-          onChange={handleChange}
-          indicatorColor="primary"
-          textColor="primary"
-          variant="scrollable"
-          scrollButtons="auto"
-          aria-label="scrollable auto tabs example"
-        >
-
-<CardActions>
-        <Button size="small" color="primary">
-          <CardMedia
-          className={classes.media}
-          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-          
-        />
-        </Button>
-        <Button size="small" color="primary">
-          <CardMedia
-          className={classes.media}
-          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-          
-        />
-        </Button>
-<Button size="small" color="primary">
-          <CardMedia
-          className={classes.media}
-          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-          
-        />
-        </Button>
-        <Button size="small" color="primary">
-          <CardMedia
-          className={classes.media}
-          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-          
-        />
-        </Button>
-<Button size="small" color="primary">
-          <CardMedia
-          className={classes.media}
-          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-          
-        />
-        </Button>
-        <Button size="small" color="primary">
-          <CardMedia
-          className={classes.media}
-          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-          
-        />
-        </Button>
-
-      </CardActions>
-
-</Tabs>
 
     </div>
   );
