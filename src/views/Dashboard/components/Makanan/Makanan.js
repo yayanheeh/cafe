@@ -159,7 +159,14 @@ export default function ScrollableTabsButtonAuto() {
 
 </Tabs>
 
-<table width="100%" border="0 "><tr><td width="50%" bgcolor="red" align="center">TEXT 1</td><td width="50%" bgcolor="black" align="center">TEXT 2</td></tr></table>
+<table width="200%" border="0 "><tr>
+<td width="50%" bgcolor="red" align="left">TEXT 1</td>
+<td width="50%" bgcolor="black" align="left">TEXT 2</td>
+<td width="50%" bgcolor="red" align="left">TEXT 1</td>
+<td width="50%" bgcolor="red" align="left">TEXT 1</td>
+
+<td width="50%" bgcolor="red" align="left">TEXT 1</td>
+</tr></table>
     </div>
   );
 }
