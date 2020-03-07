@@ -58,10 +58,10 @@ function a11yProps(index) {
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 200,
   },
   media: {
-    height: 140,
+    height: 120,
   },
 });
 
@@ -111,7 +111,7 @@ export default function ScrollableTabsButtonAuto() {
      
 <CardMedia
           className={classes.media}
-          image="https://magfood-amazy.com/wp-content/uploads/2017/12/ice-lemon-tea.jpg"
+          image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
           title="Contemplative Reptile"
         />
 
