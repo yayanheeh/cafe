@@ -108,7 +108,7 @@ export default function ScrollableTabsButtonAuto() {
           
       <table width="1000%" border="0 "><tr>
 <td width="25%" bgcolor="" align="left">
-     
+     <Card className={classes.root}>
 <CardMedia
           className={classes.media}
           image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
@@ -123,7 +123,7 @@ export default function ScrollableTabsButtonAuto() {
             Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
             across all continents except Antarctica
           </Typography>
-        </CardContent>
+        </CardContent></Card>
   </td>&ensp; 
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
