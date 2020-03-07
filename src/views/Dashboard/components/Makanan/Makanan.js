@@ -137,24 +137,26 @@ export default function ScrollableTabsButtonAuto() {
         >
 
           
-                   
-
-<Card className={classes.root}>
-      <CardContent>
-
-<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/> 
-</CardContent> </Card>
- 
-<Card className={classes.root}>
+      <table width="100%" border="0 "><tr>
+<td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
-      </CardContent> </Card>
-<Card className={classes.root}>
+      </CardContent> </Card></td>
+<td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
- <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
-     
-       </CardContent> </Card>    
-        
+<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+      </CardContent> </Card></td>
+<td width="25%" bgcolor="" align="left"><Card className={classes.root}>
+      <CardContent>
+<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+      </CardContent> </Card></td>
+<td width="25%" bgcolor="" align="left"><Card className={classes.root}>
+      <CardContent>
+<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+      </CardContent> </Card></td>
+</tr></table>             
+
+
         
 
 </Tabs>
