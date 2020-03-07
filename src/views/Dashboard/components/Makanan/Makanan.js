@@ -113,8 +113,8 @@ export default function ScrollableTabsButtonAuto() {
           className={classes.media}
           image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
           title="Contemplative Reptile"
-          maxWidth:"340"
-          height:"120"
+          maxWidth:"340% "
+          height:"120% "
         />
 
 <CardContent>
