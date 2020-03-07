@@ -108,15 +108,23 @@ export default function ScrollableTabsButtonAuto() {
           
       <table width="100%" border="0 "><tr>
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
-      <CardContent>
+     
 <CardMedia
           className={classes.media}
           image="https://magfood-amazy.com/wp-content/uploads/2017/12/ice-lemon-tea.jpg"
           title="Contemplative Reptile"
         />
 
-
-  </CardContent> </Card></td>&ensp; 
+<CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Lizard
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+            across all continents except Antarctica
+          </Typography>
+        </CardContent>
+  </Card></td>&ensp; 
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
