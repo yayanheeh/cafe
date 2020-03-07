@@ -105,7 +105,7 @@ export default function ScrollableTabsButtonAuto() {
      
     <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Minuman
+           
           </Typography>
 </CardContent>
   
@@ -122,7 +122,8 @@ export default function ScrollableTabsButtonAuto() {
           
       <table width="1000%" border="0 "><tr>
 
-<td width="25%" bgcolor="" align="left"><Card className={classes.root}>
+<td width="25%" bgcolor="" align="left"><Card title="My AppBar" style={{ backgroundColor: '#163F23' }} 
+   className={classes.root}>
       <CardContent>
 
 <Badge color="secondary" badgeContent="2k ">
