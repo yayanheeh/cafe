@@ -123,8 +123,12 @@ export default function ScrollableTabsButtonAuto() {
 
 <CardContent>
           
-          <Typography variant="body2" color="textSecondary" component="p">
-            Makan</Typography>
+          <Button size="small" color="primary">
+          Share
+        </Button>
+        <Button size="small" color="primary">
+          Learn More
+        </Button>
         </CardContent></Card>
   </td>&ensp; 
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
