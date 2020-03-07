@@ -159,13 +159,23 @@ export default function ScrollableTabsButtonAuto() {
 
 </Tabs>
 
-<table width="200%" border="0 "><tr>
-<td width="50%" bgcolor="red" align="left">TEXT 1</td>
-<td width="50%" bgcolor="black" align="left">TEXT 2</td>
-<td width="50%" bgcolor="red" align="left">TEXT 1</td>
-<td width="50%" bgcolor="red" align="left">TEXT 1</td>
-
-<td width="50%" bgcolor="red" align="left">TEXT 1</td>
+<table width="100%" border="0 "><tr>
+<td width="25%" bgcolor="" align="left"><Card className={classes.root}>
+      <CardContent>
+<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+      </CardContent> </Card></td>
+<td width="25%" bgcolor="" align="left"><Card className={classes.root}>
+      <CardContent>
+<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+      </CardContent> </Card></td>
+<td width="25%" bgcolor="" align="left"><Card className={classes.root}>
+      <CardContent>
+<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+      </CardContent> </Card></td>
+<td width="25%" bgcolor="" align="left"><Card className={classes.root}>
+      <CardContent>
+<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+      </CardContent> </Card></td>
 </tr></table>
     </div>
   );
