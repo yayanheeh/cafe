@@ -9,7 +9,7 @@ import Box from '@material-ui/core/Box';
 import { Grid } from '@material-ui/core';    
   
 import Link from '@material-ui/core/Link';
-
+import Badge from '@material-ui/core/Badge';
  
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -122,8 +122,10 @@ export default function ScrollableTabsButtonAuto() {
 
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
-<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
 
+<Badge color="secondary" badgeContent="2k ">
+<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
+</Badge>
 <ListItem>
         <ListItemText primary secondary="Rp 20000" />
       </ListItem>
