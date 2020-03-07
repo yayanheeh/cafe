@@ -123,9 +123,7 @@ export default function ScrollableTabsButtonAuto() {
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
-<Button size="small" color="primary">
-          Es Teh
-        </Button>
+
 <ListItem>
         <ListItemText primary secondary="Rp 20000" />
       </ListItem>
