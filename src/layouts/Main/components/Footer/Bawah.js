@@ -46,7 +46,7 @@ className={classes.stickToBottom}
         to="/dashboard"
         label="Home"
         value="Home"
-        icon={<Home style={{ color:white [500] }} />}
+        icon={<Home color="action" />}
         className={classes.content}
     />
 
