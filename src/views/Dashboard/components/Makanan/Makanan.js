@@ -97,21 +97,23 @@ export default function ScrollableTabsButtonAuto() {
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
         >
-          <Tab label="Item One" {...a11yProps(0)} />
-          <Tab label="Item Two" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
-          <Tab label="Item Four" {...a11yProps(3)} />
-          <Tab label="Item Five" {...a11yProps(4)} />
-          <Tab label="Item Six" {...a11yProps(5)} />
-          <Tab label="Item Seven" {...a11yProps(6)} />
-        </Tabs>
+          <Tab label="Home" {...a11yProps(0)} />
+          <Tab label="Makanan" {...a11yProps(1)} />
+          <Tab label="Minuman" {...a11yProps(2)} />
+          <Tab label="Ruang kerja" {...a11yProps(3)} />
+            </Tabs>
      
-      
+    <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Minuman
+          </Typography>
+</CardContent>
+  
 <Tabs 
           value={value}
           onChange={handleChange}
-          indicatorColor="primary"
-          textColor="primary"
+          indicatorColor=""
+          textColor=""
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
