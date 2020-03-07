@@ -149,6 +149,28 @@ export default function ScrollableTabsButtonAuto() {
 
 </Tabs>
 
+<CardActions>
+        <Button size="small" color="primary">
+          Share
+        </Button>
+        <Button size="small" color="primary">
+          Learn More
+        </Button>
+<Button size="small" color="primary">
+          Share
+        </Button>
+        <Button size="small" color="primary">
+          Learn More
+        </Button>
+<Button size="small" color="primary">
+          Share
+        </Button>
+        <Button size="small" color="primary">
+          Learn More
+        </Button>
+
+      </CardActions>
+
     </div>
   );
 }
