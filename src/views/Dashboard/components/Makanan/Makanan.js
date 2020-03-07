@@ -63,7 +63,7 @@ const useStyles = makeStyles({
   media: {
     height: 140,
   },
-}));
+});
 
 export default function ScrollableTabsButtonAuto() {
   const classes = useStyles();
