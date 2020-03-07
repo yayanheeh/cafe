@@ -29,6 +29,7 @@ import TableRow from '@material-ui/core/TableRow';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
+import green from '@material-ui/core/colors/green';
 
 
 
@@ -91,8 +92,8 @@ export default function ScrollableTabsButtonAuto() {
         <Tabs 
           value={value}
           onChange={handleChange}
-          indicatorColor="#163F23"
-          textColor="#163F23"
+          indicatorColor="green"
+          textColor="green"
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
