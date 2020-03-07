@@ -56,14 +56,14 @@ function a11yProps(index) {
   };
 }
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   root: {
-    maxWidth: 200,
+    flexGrow: 0,
+    width: '100%',
+    backgroundColor: theme.palette.background.paper,
   },
-  media: {
-    height: 120,
-  },
-});
+}));
+
 
 export default function ScrollableTabsButtonAuto() {
   const classes = useStyles();
@@ -113,6 +113,8 @@ export default function ScrollableTabsButtonAuto() {
           className={classes.media}
           image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
           title="Contemplative Reptile"
+          maxWidth:"340"
+          height:"120"
         />
 
 <CardContent>
