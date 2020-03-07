@@ -65,7 +65,7 @@ const useStyles = makeStyles(theme => ({
 
   media: {
     height: 140,
-    maxWidth: 345,
+    maxWidth: 200,
   },
 }));
 
@@ -122,13 +122,9 @@ export default function ScrollableTabsButtonAuto() {
         />
 
 <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Lizard
-          </Typography>
+          
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
-          </Typography>
+            Makan</Typography>
         </CardContent></Card>
   </td>&ensp; 
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
