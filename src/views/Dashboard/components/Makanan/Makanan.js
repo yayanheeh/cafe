@@ -75,8 +75,6 @@ const useStyles = makeStyles(theme => ({
     maxWidth: 200,
   },
 
-<div class="container"></div>​
-
    yayan: {
     width: 150px;
     height: 100px;
