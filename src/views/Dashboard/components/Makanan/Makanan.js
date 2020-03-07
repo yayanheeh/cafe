@@ -74,15 +74,6 @@ const useStyles = makeStyles(theme => ({
     height: 140,
     maxWidth: 200,
   },
-
-   yayan: {
-    width: 150px,
-    height: 100px,
-    background-image: url{'http://i.stack.imgur.com/2OrtT.jpg'},
-    background-size: cover,
-    background-repeat: no-repeat,
-    background-position: 50% 50%,
-},
 }
 }));
 
@@ -133,9 +124,11 @@ export default function ScrollableTabsButtonAuto() {
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
-<Divider />
+<Button size="small" color="primary">
+          Es Teh
+        </Button>
 <ListItem>
-        <ListItemText primary="Esteh" secondary="Rp 20000" />
+        <ListItemText primary secondary="Rp 20000" />
       </ListItem>
       </CardContent> </Card></td>&ensp; 
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
