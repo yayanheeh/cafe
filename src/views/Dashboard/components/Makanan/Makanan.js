@@ -140,7 +140,7 @@ export default function ScrollableTabsButtonAuto() {
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
 <Badge color="secondary" badgeContent="2k ">
-<img src="https://cdn.pixabay.com/photo/2018/01/11/17/29/ice-tea-3076517_1280.jpg" width="150" height="150"/>
+<img src="https://cdn.pixabay.com/photo/2015/07/02/20/37/cup-829527_1280.jpg" width="150" height="150"/>
 </Badge>
 
       </CardContent> </Card></td>
@@ -149,7 +149,7 @@ export default function ScrollableTabsButtonAuto() {
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
 <Badge color="secondary" badgeContent="2k ">
-<img src="https://cdn.pixabay.com/photo/2018/01/11/17/29/ice-tea-3076517_1280.jpg" width="150" height="150"/>
+<img src="https://cdn.pixabay.com/photo/2016/07/21/11/17/mineral-water-1532300_1280.jpg" width="150" height="150"/>
 </Badge>
       </CardContent> </Card></td>
 </tr></table>             
