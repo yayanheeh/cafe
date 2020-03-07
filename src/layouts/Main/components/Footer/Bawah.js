@@ -46,7 +46,7 @@ className={classes.stickToBottom}
         to="/dashboard"
         label="Home"
         value="Home"
-        icon={<Home />}
+        icon={<Home color="white" />}
         className={classes.content}
     />
 
@@ -55,7 +55,7 @@ className={classes.stickToBottom}
         to="/tentangkami"
         label="Tentang"
         value="Tentang"
-        icon={<FavoriteIcon />}
+        icon={<FavoriteIcon color="light"/>}
         className={classes.content}
     />
 <BottomNavigationAction
