@@ -56,11 +56,12 @@ function a11yProps(index) {
   };
 }
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles({
   root: {
-    flexGrow: 0,
-    width: '100%',
-    backgroundColor: theme.palette.background.paper,
+    maxWidth: 345,
+  },
+  media: {
+    height: 140,
   },
 }));
 
