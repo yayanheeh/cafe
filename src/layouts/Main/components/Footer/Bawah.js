@@ -46,7 +46,7 @@ className={classes.stickToBottom}
         to="/dashboard"
         label="Home"
         value="Home"
-        icon={<Home color="white" />}
+        icon={<Home color="primary" />}
         className={classes.content}
     />
 
@@ -55,7 +55,7 @@ className={classes.stickToBottom}
         to="/tentangkami"
         label="Tentang"
         value="Tentang"
-        icon={<FavoriteIcon color="light"/>}
+        icon={<FavoriteIcon color="primary"/>}
         className={classes.content}
     />
 <BottomNavigationAction
@@ -63,7 +63,7 @@ className={classes.stickToBottom}
         to="/paduan"
         label="Paduan"
         value="Paduan"
-        icon={<Book />}
+        icon={<Book color="primary" />}
         className={classes.content}
     />
 
@@ -72,7 +72,7 @@ className={classes.stickToBottom}
         to="/paduan"
         label="Chat"
         value="Chat"
-        icon={<Forum />}
+        icon={<Forum color="primary"/>}
         className={classes.content}
     />
       
