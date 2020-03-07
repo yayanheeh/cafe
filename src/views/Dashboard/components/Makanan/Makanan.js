@@ -152,8 +152,8 @@ export default function ScrollableTabsButtonAuto() {
                   <InfoIcon />
                 </IconButton>
               }
-            />
-          </GridListTile>
+            
+          </GridListTileBar>
 
  </CardContent> </Card></td>&ensp; 
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
