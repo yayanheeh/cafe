@@ -62,6 +62,12 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
     backgroundColor: theme.palette.background.paper,
   },
+
+  maxWidth: 345,
+  },
+  media: {
+    height: 140,
+},
 }));
 
 export default function ScrollableTabsButtonAuto() {
