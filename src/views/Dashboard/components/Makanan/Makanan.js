@@ -62,12 +62,6 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
     backgroundColor: theme.palette.background.paper,
   },
-
-  maxWidth: 345,
-  },
-  media: {
-    height: 140,
-},
 }));
 
 export default function ScrollableTabsButtonAuto() {
@@ -114,8 +108,9 @@ export default function ScrollableTabsButtonAuto() {
       <table width="100%" border="0 "><tr>
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
-<img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
-      </CardContent> </Card></td>&ensp; 
+<img src="https://magfood-amazy.com/wp-content/uploads/2017/12/ice-lemon-tea.jpg" alt="Smiley face" height="140" width="345"/>
+
+  </CardContent> </Card></td>&ensp; 
 <td width="25%" bgcolor="" align="left"><Card className={classes.root}>
       <CardContent>
 <img src="https://img.icons8.com/cute-clipart/128/000000/home.png"/>
