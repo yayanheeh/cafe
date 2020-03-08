@@ -13,7 +13,7 @@ import {
   Account as AccountView,
   Settings as SettingsView,
   SignUp as SignUpView,
-  Makan as MakanView,
+  
   SignIn as SignInView,
   
   NotFound as NotFoundView
@@ -82,12 +82,7 @@ const Routes = () => {
         path="/sign-in"
       />
       
-<RouteWithLayout
-        component={Makan}
-        exact
-        layout={MinimalLayout}
-        path="/makan"
-      />
+
       
      
       <RouteWithLayout
