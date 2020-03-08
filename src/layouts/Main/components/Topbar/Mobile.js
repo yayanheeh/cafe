@@ -74,9 +74,9 @@ component="form" className={classes.root}>
       <InputBase 
         className={classes.input}
         placeholder="Pencarian..."
-        inputProps={{ 'aria-label': 'search pencarian' }}
+        inputProps={{ 'aria-label': 'docs-search form-input' }}
       />
-      <IconButton type="submit" className={classes.iconButton} aria-label="search">
+      <IconButton type="submit" className={classes.iconButton} aria-label="Search Docs">
         <SearchIcon />
       </IconButton>
       |    <IconButton color="primary" className={classes.iconButton} aria-label="directions">
