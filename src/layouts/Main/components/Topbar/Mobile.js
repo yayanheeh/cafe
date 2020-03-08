@@ -79,8 +79,7 @@ component="form" className={classes.root}>
       <IconButton type="submit" className={classes.iconButton} aria-label="search">
         <SearchIcon />
       </IconButton>
-      <Divider className={classes.divider} orientation="vertical" />
-      <IconButton color="primary" className={classes.iconButton} aria-label="directions">
+      |    <IconButton color="primary" className={classes.iconButton} aria-label="directions">
         <DirectionsIcon />
       </IconButton>
 
