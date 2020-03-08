@@ -10,3 +10,4 @@ export { default as Typography } from './Typography';
 export { default as UserList } from './UserList';
 export { default as Minuman } from './Minuman';
 export { default as Tes } from './Tes';
+export { default as Makan } from './Makan';
