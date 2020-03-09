@@ -13,7 +13,11 @@ import Hidden from '@material-ui/core/Hidden';
 
 import Home from '@material-ui/icons/Home';
 import { Link } from 'react-router-dom';
+import { Visibility } from '@material-ui/icons';
 
+const MyVisibility = styled(Visibility)({
+    color: 'white',
+});
 
 const useStyles = makeStyles({
   stickToBottom: {
@@ -28,11 +32,11 @@ export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
 
   return (  <Hidden smUp> 
-<BottomNavigation title="My Bottom" style={{ backgroundColor: '#FEFEFE' }} 
+<BottomNavigation title="My Bottom" style={{ backgroundColor: '#000000' }} 
 className={classes.stickToBottom}
 >
 <br/><br/>
-    <BottomNavigation title="My Bottom" style={{ backgroundColor: '#FEFEFE' }} 
+    <BottomNavigation title="My Bottom" style={{ backgroundColor: '#000000' }} 
 
       value={value}
       onChange={(event, newValue) => {
