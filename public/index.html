@@ -19,11 +19,25 @@
   </head>
   <body>
 <script type="text/javascript">
-<!--
-if (screen.width <= 1000) {
-document.location = "https://surabayaumrohmurah.blogspot.com";
+function detectMobile() 
+{
+    if(usrAgent.match(/Mobile/i))
+    {
+        return "Mobile";
+    }
 }
-//-->
+
+var isMobile = detectMobile();
+
+if(isMobile)
+{
+    window.location = "https://Cafe02.netlify.com";
+}
+else
+{
+    window.location = "https://surabayaumrohmurah.blogspot.com";
+}
+
 </script>
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
